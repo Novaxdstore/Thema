@@ -13,9 +13,9 @@ installTheme(){
     echo "Installing theme..."
     cd /var/www/pterodactyl
     rm -r MinecraftPurpleTheme
-    git clone https://github.com/krisbotz1/MinecraftPurpleTheme.git
+    git clone https://github.com/Novaxdstore/Thema.git
     cd MinecraftPurpleTheme
-    rm /var/www/pterodactyl/resources/scripts/MinecraftPurpleTheme.css
+    rm /var/www/pterodactyl/resources/scripts/NovaxdThema.css
     rm /var/www/pterodactyl/resources/scripts/index.tsx
     mv index.tsx /var/www/pterodactyl/resources/scripts/index.tsx
     mv MinecraftPurpleTheme.css /var/www/pterodactyl/resources/scripts/MinecraftPurpleTheme.css
